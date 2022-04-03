@@ -1,0 +1,46 @@
+.logo{
+    width: 55px;
+    height: 55px;
+}
+
+.pokemon{
+    width: 800px;
+    height: 800px;
+}
+
+.imagen-pokemon {
+
+    z-index: 1;
+
+}
+
+.boton{
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgba(230, 47, 47, 0.356);
+}
+
+.color{
+    color: black;
+    font-size: 20px;;
+}
+
+.numero{
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    position: absolute;
+
+    z-index: 100;
+
+}
+
+.fondo{
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    border-color:#f80000 ;
+    border: 2px solid #ffff;
+    color: #ffff;
+}
